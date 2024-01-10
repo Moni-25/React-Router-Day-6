@@ -1,0 +1,20 @@
+{
+    "cyber" : [
+        {
+            "id" : 1,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+            "title" : "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
+            "desc" : "In the rapidly evolving field of cybersecurity, there is a common misconception that coding skills are a prerequisite for success.",
+            "date" : "December 04, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 2,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+            "title" : "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
+            "desc" : "Cybersecurity & Ethical hacking and have been key in making sure that your data online is secure.",
+            "date" : "October 29, 2023",
+            "comm" : "No Comments"
+        }
+    ]
+}

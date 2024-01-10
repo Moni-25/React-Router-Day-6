@@ -1,0 +1,28 @@
+{
+    "career" : [
+        {
+            "id" : 1,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-UIUX-Designer-Roles-Responsibilities-Job-Description.jpg",
+            "title" : "UI/UX Designer Job Description and Roles & Responsibilities",
+            "desc" : "UI UX is the abbreviated word that’s been rocking the trend over the years, especially in the past decade.",
+            "date" : "December 13, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 2,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Top-IT-Jobs-for-Economics-Students.webp",
+            "title" : "Top 5 IT Jobs for Economics Students",
+            "desc" : "With the rapid advancement of technology, the demand for IT professionals has soared in recent years.",
+            "date" : "November 04, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 3,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Top-IT-Jobs-for-Commerce-Students.webp",
+            "title" : "Top IT Jobs for Commerce Students: A Lucrative Career Path",
+            "desc" : "In today’s digital age, the intersection of economics and technology offers exciting career opportunities for students with a background in economics.",
+            "date" : "December 13, 2023",
+            "comm" : "No Comments"
+        }
+    ]
+}

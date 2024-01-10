@@ -1,0 +1,37 @@
+{
+    "stack" : [
+        {
+            "id" : 1,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Best-Full-Stack-Development-Online-Courses.webp",
+            "title" : "7 Best Full-Stack Development Online Courses [2024]",
+            "desc" : "Today’s world is rapidly evolving into a technological landscape. Owing to these dynamics, the demand and scope for full-stack developers.",
+            "date" : "Augest 31, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 2,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/10/Featured-Image-top-product-based-companies-for-full-stack-developers.webp",
+            "title" : "Top 10 Product-Based Companies for Full-Stack Developers [2024]",
+            "desc" : "In the dynamic landscape of technology, full-stack developers are the architects of the digital world.",
+            "date" : "November 8, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 3,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Full-Stack-Developer-vs-Software-Engineer-.webp",
+            "title" : "Top Differences: Full Stack Developer vs Software Engineer 2024",
+            "desc" : "A Full Stack Developer is a tech all-rounder. ",
+            "date" : "November 15, 2023",
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 4,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Horizontal-vs-Vertical-Scaling-for-Efficient-System-Design.webp",
+            "title" : "Horizontal vs Vertical Scaling for Efficient System Design",
+            "desc" : "In the world of system design, envision a digital skyscraper – a multifaceted structure built to withstand the demands of the modern world.",
+            "date" : "November 1, 2023",
+            "comm" : "No Comments"
+        }
+    ]
+}
+

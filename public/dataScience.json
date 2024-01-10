@@ -1,0 +1,28 @@
+{
+    "science" : [
+        {
+           "id" : 1,
+           "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/11/feature-image-product-based-companies-for-data-science-freshers.webp",
+           "title" : "Impact of Certification Programs on Hiring Data Scientists",
+           "desc" : "Companies harnessing the power of data to gain valuable insights and make informed decisions.",
+           "date" : "December 14, 2023",
+           "comm" : "No Comments"
+        },
+        {
+            "id" : 2,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-1-1536x768.webp",
+            "title" : "Impact of Certification Programs on Hiring Data Scientists",
+            "desc" : "Data scientists are the creators behind transforming the raw data into edible data insights.",
+            "date" : "November 20, 2023", 
+            "comm" : "No Comments"
+        },
+        {
+            "id" : 3,
+            "img" : "https://www.guvi.in/blog/wp-content/uploads/2023/10/Feature-image-Difference-between-Data-Science-and-Data-Engineering.webp",
+            "title" : "What is the Difference between Data Science and Data Engineering?",
+            "desc" : "Just like the rest of the world, we’re seeing a massive jump in the demand for data science and data engineering roles.",
+            "date" : "September 2, 2023", 
+            "comm" : "No Comments"
+        }
+    ]
+}
