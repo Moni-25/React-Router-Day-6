@@ -7,7 +7,11 @@ export default function CallStack(){
     const [stack, setStack] = useState([]);
 
     useEffect(() => {
-        fetch("https://peppy-biscochitos-517b43.netlify.app/stack.json")
+        fetch("https://peppy-biscochitos-517b43.netlify.app/stack.json", {
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        })
         .then((response) => response.json())
         .then((result) => setStack(result.stack))
         .catch((error) => console.log(error));
