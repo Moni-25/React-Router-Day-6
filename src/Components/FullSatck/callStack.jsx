@@ -7,7 +7,7 @@ export default function CallStack(){
     const [stack, setStack] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5173/stack.json")
+        fetch("https://peppy-biscochitos-517b43.netlify.app/stack.json")
         .then((response) => response.json())
         .then((result) => setStack(result.stack))
         .catch((error) => console.log(error));
