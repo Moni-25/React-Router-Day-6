@@ -9,7 +9,8 @@ export default function CallStack(){
     useEffect(() => {
         fetch("https://peppy-biscochitos-517b43.netlify.app/stack.json", {
             headers: {
-                "Access-Control-Allow-Origin": "*"
+                "Access-Control-Allow-Origin": "*",
+                "Vary": "Origin"
             }
         })
         .then((response) => response.json())
