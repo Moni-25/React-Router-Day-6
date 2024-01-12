@@ -4,44 +4,21 @@ import Listing from "../../Components/List/list";
 import Cyber from "../../Components/Cyber/cyber";
 import Career from "../../Components/Career/career";
 import Science from "../../Components/Science/science";
+import dataStack from "../../../public/stack.json"
+import dataCyber from "../../../public/cyber.json"
+import dataScience from "../../../public/dataScience.json"
+import dataCareer from "../../../public/career.json"
 // import { useParams } from "react-router-dom";
 
-export default function Home(){
-    const [stack, setStack] = useState([]);
+export default function Home()
+{    
+    const [stack, setStack] = useState(dataStack);
 
-    useEffect(() => {
-        fetch("http://localhost:5173/stack.json")
-        .then((response) => response.json())
-        .then((result) => setStack(result.stack))
-        .catch((error) => console.log(error));
-    }, []);
+    const [cyber, setCyber] = useState(dataCyber);
 
-    const [cyber, setCyber] = useState([]);
+    const [science, setScience] = useState(dataScience);
 
-    useEffect(() =>{
-        fetch("http://localhost:5173/cyber.json")
-        .then((res) => res.json())
-        .then((result) => setCyber(result.cyber))
-        .catch((error) => console.log(error));
-    }, []);
-
-    const [science, setScience] = useState([]);
-
-    useEffect(() =>{
-        fetch("http://localhost:5173/dataScience.json")
-        .then((res) => res.json())
-        .then((result) => setScience(result.science))
-        .catch((error) => console.log(error));
-    }, []);
-
-    const [career, setCareer] = useState([]);
-
-    useEffect(() =>{
-        fetch("http://localhost:5173/career.json")
-        .then((res) => res.json())
-        .then((result) => setCareer(result.career))
-        .catch((error) => console.log(error));
-    }, []);
+    const [career, setCareer] = useState(dataCareer);
 
     // const params = useParams();
     // console.log(params)
@@ -50,16 +27,16 @@ export default function Home(){
     return(
         <>
             <div className='card-body d-flex' style={{padding: "0px 40px 30px 40px", gap: "20px", flexWrap: "wrap"}}>
-                {stack.map((stack, index) => (
+                {stack.stack.map((stack, index) => (
                     <FullStack stack={stack} key={`course-key${index}`}/>
                 ))}
-                {cyber.map((cyber, index) => (
-                    <Cyber cyber={cyber} key={`cyber-key${index}`}/>
-                ))}
-                {science.map((science, index) => (
+                {science.science.map((science, index) => (
                     <Science science={science} key={`science-key${index}`}/>
                 ))}
-                {career.map((career, index) => (
+                {cyber.cyber.map((cyber, index) => (
+                    <Cyber cyber={cyber} key={`cyber-key${index}`}/>
+                ))}
+                {career.career.map((career, index) => (
                     <Career career={career} key={`career-key${index}`}/>
                 ))}
             </div>
